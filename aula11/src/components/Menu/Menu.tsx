@@ -5,7 +5,7 @@ export default function Menu(){
         <nav>
             <ul>
                 <li><Link href="/">Home</Link></li>
-                <li>oi</li>
+                <li><Link href="/produtos">produtos</Link></li>
                 <li>oi</li>
             </ul>
         </nav>
