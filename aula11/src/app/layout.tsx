@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import Rodape from "./components/rodape/Rodape";
+import Cabecalho from "./components/cabecalho/Cabecalho";
 
 export const metadata: Metadata = {
   title: "Exemplo de Boyler-Plaet",
@@ -19,7 +21,9 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body>
+        <Cabecalho />
         {children}
+        <Rodape />
       </body>
     </html>
   );
