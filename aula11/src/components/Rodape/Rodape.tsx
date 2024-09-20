@@ -1,5 +1,8 @@
 export default function Rodape() {
   return (
-    <div>Rodape</div>
+    <footer>
+      <h2>Rodape</h2>
+      <p>Desenvolvido por <span>Furigo Gamer</span></p>
+    </footer>
   )
 }

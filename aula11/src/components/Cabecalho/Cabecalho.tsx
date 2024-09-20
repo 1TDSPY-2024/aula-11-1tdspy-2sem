@@ -1,5 +1,10 @@
+import Menu from "../Menu/Menu";
+
 export default function Cabecalho() {
     return (
-        <div>Cabecalho</div>
+        <header>
+            <h1>Cabecalho</h1>
+            <Menu/>
+        </header>
     )
 }
