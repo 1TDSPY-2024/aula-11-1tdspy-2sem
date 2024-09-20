@@ -31,7 +31,7 @@ export default function Produtos() {
                             <td>{p.nome}</td>
                             <td>{p.preco}</td>
                             <td>{p.qtd}</td>
-                            <td><Link href={`/produto/editar/${p.id}`}>Editar</Link></td>
+                            <td><Link href={`/produto/${p.id}`}>Editar</Link></td>
                         </tr>
                     ))}
                 </tbody>
